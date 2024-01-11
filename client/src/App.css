@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+.url-shortener-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.url-shortener-h1 {
+  text-align: center;
+  color: rgb(96, 1, 96)
+}
+.url-shortener-button {
+font-size: larger;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  margin: 6px;
+  background-color: rgb(245, 241, 241);
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius:25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.shortened-url-container {
+  margin-top: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
